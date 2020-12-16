@@ -1,0 +1,21 @@
+{
+    "name": "Super-Lint Workflow",
+    "description": "Github Super-Linter Org Template",
+    "iconName": "gear",
+    "categories": [
+        "Golang",
+        "Python",
+        "C#",
+        "YAML",
+        "Terraform",
+        "JSON",
+        "Dockerfile"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        "\\S*tf"
+    ],
+
+    "comment_MetadataReference": "https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/sharing-workflows-with-your-organization"
+}
